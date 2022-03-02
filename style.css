@@ -87,3 +87,19 @@ h1 {
     transform: translateY(-50%);
 }
 
+#root {
+    max-width: 1200px;
+    min-height: 100vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    margin: auto;
+}
+
+.data-card {
+    width: 300px;
+    height: 390px;
+}
+
