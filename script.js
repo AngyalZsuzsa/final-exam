@@ -1,10 +1,10 @@
 function books(data, index) {
     return `
         <div data-index="${index+1}" class="data-card">
-            <h4>${data.title}</h4>
-            <h2>${data.sub}</h2>
+            <h4>${data.sub}</h4>
+            <h2>${data.title}</h2>
             <h5>${data.text}</h5>
-            <button><span class="details">details</span><span class="material-icons md-36">arrow_forward</span></button>
+            <button><span class="details">read more</span><span class="material-icons md-18">arrow_forward</span></button>
         </div>`
 }
 
