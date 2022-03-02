@@ -99,6 +99,7 @@ h1 {
 }
 
 .data-card {
+    position: relative;
     width: 300px;
     height: 390px;
 
@@ -110,4 +111,23 @@ h1 {
 
 
 }
+
+.data-card::before {
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    content: attr(data-index);
+    
+    width: 40px; 
+    height: 40px;
+    
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 24px;
+    font-weight: 700;
+}
+
 
